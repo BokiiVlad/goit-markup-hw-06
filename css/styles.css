@@ -1,21 +1,182 @@
-:root {
-    --iris: #4d5ae5;
-    --ocean: #404bbf;
-    --navy-blue: #2e2f42;
-    --green: #31d0aa;
-    --slate: #434455;
-    --light-slate: #8e8f99;
-    --cornflower: #e7e9fc;
-    --cloud: #f4f4fd;
-    --navy-blue-modal: rgba(46, 47, 66, 0.4);
-    --grey: rgba(46, 47, 66, 0.7);
-    --white: #fff;
-    --dairy: #fcfcfc;
-}
+
 body {
-font-family:"Roboto";
+font-family:"Roboto", sans-serif;
 color:#434455;
-background-color:#4D5AE5;
-list-style-type:none;
+background-color:#FFFFFF;
+list-style-type: none;
+font-weight: 400
 }
 
+li {list-style-type: none;}
+
+a {text-decoration: none;}
+
+/* site header */
+.top {
+height: 72px;
+}
+
+.top-name{
+}
+
+.logo {
+color: #2E2F42;
+font-weight: 700;
+font-size: 18px;
+line-height: 117%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.name{
+color: #4d5ae5;
+}
+/* site header end */
+
+/* site menu */
+.menu-text{
+color:#2E2F42;
+}
+
+.menu-text a {
+color: #2E2F42;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+}
+
+.menu-text a:hover {
+color: #404BBF;
+}
+
+.menu-text-first:active{ 
+color: #404BBF;
+}
+/* site menu end*/
+
+/* site adress*/
+.adress-item a{
+font-family: "Roboto", sans-serif;
+color:#434455 ;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+font-style: normal;
+}
+
+.adress-item a:hover {
+color: #404BBF;
+}
+/* site adress end*/
+
+/* hero content */
+.head-text{
+background-color:#2e2f42;
+color:#FFFFFF;
+text-align: center;
+height: 600px;
+}
+
+.main-text {
+font-weight: 700;
+font-size: 56px;
+line-height: 107%;
+letter-spacing: 0.02em;
+ text-align: center;
+}
+
+.button-item {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color:#FFFFFF;
+background-color:#4D5AE5;
+}
+/* hero content end */
+
+/* Features */
+.features-list {}
+
+.main-menu-text {
+font-weight: 700;
+font-size: 36px;
+line-height: 111%;
+letter-spacing: 0.02em;
+text-align: center;
+color:#2E2F42;
+}
+
+.title-name {
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.name-item {
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+}
+/* Features end*/
+
+/* Our Team*/
+.image-person-list {
+background-color:#F4F4FD;
+}
+
+.name-person-image {
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0.02em;
+text-align: center;
+color:#2E2F42;
+}
+
+.profession-list {
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+text-align: center;
+}
+/* Our Team end*/
+
+/* Our Portfolio*/
+.portfolio-list {}
+
+.portfolio-name {
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.portfolio-name-list {
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+}
+/* Our Portfolio end*/
+
+/* footer*/
+.end-site{ 
+background-color:#2E2F42;
+height: 312px;
+}
+.end-site a{color:#F4F4FD}
+
+.text-end {
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+}
+.logo-dawn {
+color: #4d5ae5;
+}
+/* footer end*/
