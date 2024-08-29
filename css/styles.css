@@ -6,6 +6,7 @@ background-color:#FFFFFF;
 list-style-type: none;
 font-weight: 400
 }
+h2{text-transform: capitalize}
 
 li {list-style-type: none;}
 
