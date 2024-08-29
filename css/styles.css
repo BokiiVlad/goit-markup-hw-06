@@ -89,6 +89,7 @@ letter-spacing: 0.02em;
 }
 
 .button-item {
+cursor: pointer
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
@@ -97,6 +98,14 @@ letter-spacing: 0.04em;
 color:#FFFFFF;
 background-color:#4D5AE5;
 }
+
+.button-item:hover{
+color:#404BBF;
+}
+.button-item:focus{
+color:#404BBF;
+}
+
 /* hero content end */
 
 /* Features */
