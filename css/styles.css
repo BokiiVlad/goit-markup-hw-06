@@ -150,7 +150,8 @@ text-align: center;
 /* Our Team end*/
 
 /* Our Portfolio*/
-.portfolio-list {}
+.portfolio-list {
+}
 
 .portfolio-name {
 font-weight: 500;
@@ -179,7 +180,7 @@ letter-spacing: 0.02em;
 color: #F4F4FD;
 }
 .logo-dawn{ 
-font-family: "Roboto", sans-serif;
+font-family: "Raleway", sans-serif;
 color: #4d5ae5;
 font-weight: 700;
 font-size: 18px;
