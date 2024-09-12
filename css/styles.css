@@ -340,11 +340,11 @@ letter-spacing: 0.02em;
 /* -----------------------footer-----------------------*/
 .end-site{ 
 background-color:#2E2F42;
+padding: 100px 0px;
 }
 
 .block-end{
 max-width: 264px;
-padding: 100px 0px;
 }
 
 .text-end {
