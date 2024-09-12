@@ -351,12 +351,8 @@ background-color:#2E2F42;
 padding: 100px 0px;
 }
 
-.block-end{
-max-width: 264px;
-}
-
 .text-end {
-margin-top: 16px;
+max-width: 264px;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
@@ -367,6 +363,8 @@ color: #F4F4FD;
 color: #f4f4fd;
 }
 .logo-dawn {
+margin-bottom: 16px;
+display: inline-block;
 font-family: "Raleway", sans-serif;
 color: #4d5ae5;
 font-weight: 700;
