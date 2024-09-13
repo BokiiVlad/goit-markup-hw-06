@@ -310,8 +310,6 @@ text-align: center;
 /* -----------------------Our Portfolio-----------------------*/
 .portfolio-list {
 }
-.mid-block{
-}
 
 .portfolio-item{
 width: calc((100% - 48px) / 3);
@@ -332,7 +330,7 @@ max-width: 360px;
 }
 
 .portfolio-name {
-padding-bottom: 8px;
+margin-bottom: 8px;
 font-weight: 500;
 font-size: 20px;
 line-height: 120%;
