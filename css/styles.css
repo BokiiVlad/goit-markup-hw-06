@@ -130,7 +130,7 @@ line-height: 150%;
 letter-spacing: 0.02em;
 }
 
-.menu-text-first a{
+.studio-item {
 color: #404bbf;
 }
 
@@ -382,7 +382,7 @@ width: 16px;
 height: 16px;
 }
 
-.team-social-item:hover, .team-social-item:focus{
+.team-social-link:hover, .team-social-link:focus{
 background-color:#404BBF;
 }
 
@@ -469,16 +469,16 @@ padding: 100px 0px;
 }
 .footer-items{
 display: flex;
+align-items: baseline
 }
 
 .footer-text{
+margin-right: 120px;
 }
 
-.footer-link{
+.footer-link:hover, .footer-link:focus{
+background-color: #31d0aa;
 }
-
-.footer-link:hover, .footer-link:focus {
-background-color: #31D0AA;}
 
 .text-end {
 max-width: 264px;
@@ -489,7 +489,6 @@ color: #F4F4FD;
 }
 
 .footer-social{
-margin-left: 120px;
 }
 
 .footer-items-list{
