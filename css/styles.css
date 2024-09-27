@@ -612,7 +612,7 @@ a {
   height: 24px;
 }
 
-input::placeholder {
+.footer-sabscribe-input::placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 200%;
@@ -643,7 +643,7 @@ input::placeholder {
   padding: 72px 24px 24px 24px;
   overflow: auto;
   width: 408px;
-  height: 91%;
+  height: 87%;
   max-height: 584px;
   border-radius: 4px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
@@ -695,9 +695,10 @@ input::placeholder {
   display: block;
 }
 .madal-name-box {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
-.review-form-imput {
+.review-form-input {
+  display: block;
   font-size: 12px;
   line-height: 117%;
   letter-spacing: 0.04em;
@@ -707,7 +708,7 @@ input::placeholder {
 .div-wrapper {
   position: relative;
 }
-.review-form-imput-input {
+.review-form-input-input {
   margin-top: 4px;
   font-family: inherit;
   font-weight: 400;
@@ -719,8 +720,17 @@ input::placeholder {
   display: flex;
   width: 100%;
   height: 40px;
-  border: 1px solid #8e8f99;
+  border: 1px solid rgb(46, 47, 66, 0.4);
   border-radius: 4px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.review-form-input-input:focus {
+  outline: none;
+  border: 1px solid #4d5ae5;
+}
+
+.review-form-input-input:focus + .modal-icons {
+  fill: #4d5ae5;
 }
 
 .modal-icons {
@@ -731,6 +741,7 @@ input::placeholder {
   fill: #2e2f42;
   width: 18px;
   height: 24px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-phone-box {
 }
@@ -739,6 +750,7 @@ input::placeholder {
 }
 
 .modal-textarea-box {
+  padding-bottom: 16px;
   font-size: 12px;
   line-height: 117%;
   letter-spacing: 0.04em;
@@ -746,7 +758,9 @@ input::placeholder {
 }
 .review-form-area {
 }
-.review-form-imput-area {
+.review-form-input-area {
+  resize: none;
+  margin-top: 4px;
   font-family: inherit;
   font-weight: 400;
   font-size: 12px;
@@ -759,7 +773,21 @@ input::placeholder {
   border: 1px solid #8e8f99;
   border-radius: 4px;
   padding: 8px 16px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.review-form-input-area:focus {
+  outline: none;
+  border: 1px solid #4d5ae5;
+}
+.review-form-input-area::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+}
+
 .modal-rules-box {
 }
 .review-form-checkbox {
@@ -769,8 +797,33 @@ input::placeholder {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-.review-form-imput-checkbox {
+.review-form-input-checkbox:checked + .review-form-checkbox > .chackbox-item {
+  cursor: pointer;
+  display: flex;
+  background-color: #404bbf;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid #404bbf;
+  fill: #f4f4fd;
 }
+.chackbox-item {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  fill: transparent;
+}
+
+.button-checkbox {
+  width: 10px;
+  height: 8px;
+}
+
 .modal-rules-link {
   line-height: 133%;
   text-decoration: underline;
@@ -782,5 +835,29 @@ input::placeholder {
   letter-spacing: 0.04em;
 }
 .modal-submit-form {
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  height: 56px;
+  min-width: 169px;
+  display: block;
+  border-radius: 4px;
+  padding: 16px 32px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.modal-submit-form:hover,
+.modal-submit-form:focus {
+  background-color: #404bbf;
+}
+
 /* -----------------------modal window end-----------------------*/
