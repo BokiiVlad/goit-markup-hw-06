@@ -573,6 +573,7 @@ a {
 }
 
 .footer-subscribe-input:placeholder-shown {
+  background-color: transparent;
   font-family: inherit;
   font-weight: 400;
   font-size: 12px;
@@ -614,6 +615,7 @@ a {
 }
 
 .footer-subscribe-input::placeholder {
+  background-color: transparent;
   font-weight: 400;
   font-size: 12px;
   line-height: 200%;
