@@ -636,6 +636,14 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 1;
+  pointer-events: none;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-backdrop.is-open {
+  opacity: 0;
+  pointer-events: auto;
 }
 
 .modal {
@@ -789,6 +797,7 @@ a {
 }
 
 .modal-rules-box {
+  margin-bottom: 24px;
 }
 .review-form-checkbox {
   font-weight: 400;
@@ -799,7 +808,7 @@ a {
 }
 .review-form-input-checkbox:checked + .review-form-checkbox > .chackbox-item {
   cursor: pointer;
-  display: flex;
+  display: inline-flex;
   background-color: #404bbf;
   width: 16px;
   height: 16px;
@@ -807,16 +816,21 @@ a {
   border: 1px solid #404bbf;
   fill: #f4f4fd;
 }
+.review-form-input-checkbox:focus + .review-form-checkbox > .chackbox-item {
+  border: 1px solid #404bbf;
+}
+
 .chackbox-item {
+  margin-right: 8px;
   cursor: pointer;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  fill: transparent;
+  fill: none;
 }
 
 .button-checkbox {
@@ -835,7 +849,6 @@ a {
   letter-spacing: 0.04em;
 }
 .modal-submit-form {
-  margin-top: 24px;
   margin-left: auto;
   margin-right: auto;
   border: none;
