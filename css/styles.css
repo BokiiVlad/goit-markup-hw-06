@@ -811,6 +811,7 @@ a {
 
 .review-form-input-checkbox:checked + .review-form-checkbox > .chackbox-item {
   cursor: pointer;
+  fill: transparent;
   display: inline-flex;
   background-color: #404bbf;
   width: 16px;
@@ -823,6 +824,7 @@ a {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+  fill: transparent;
 }
 
 .chackbox-item {
