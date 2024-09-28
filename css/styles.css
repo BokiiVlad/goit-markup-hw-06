@@ -709,6 +709,7 @@ a {
   margin-bottom: 8px;
 }
 .review-form-input {
+  margin-bottom: 4px;
   display: block;
   font-size: 12px;
   line-height: 117%;
@@ -720,7 +721,6 @@ a {
   position: relative;
 }
 .review-form-input-input {
-  margin-top: 4px;
   font-family: inherit;
   font-weight: 400;
   font-size: 12px;
