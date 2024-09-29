@@ -815,16 +815,12 @@ a {
 
 .review-form-input-checkbox:checked + .review-form-checkbox > .checkbox-item {
   cursor: pointer;
-  display: flex;
   background-color: #404bbf;
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: none;
   fill: #f4f4fd;
-}
-.review-form-input-checkbox:focus + .review-form-checkbox > .checkbox-item {
-  border: none;
 }
 
 .checkbox-item {
@@ -838,7 +834,6 @@ a {
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  fill: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
