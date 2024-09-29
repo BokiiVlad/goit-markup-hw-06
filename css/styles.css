@@ -540,13 +540,11 @@ a {
 }
 
 .footer-text-subscribe {
-  display: flex;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #ffffff;
-  font-size: inherit;
   margin-bottom: 16px;
 }
 
@@ -871,8 +869,6 @@ a {
   background-color: #404bbf;
 }
 
-/* -----------------------modal window end-----------------------*/
-
 .review-form-checkbox {
   display: inline-block;
   font-size: 12px;
@@ -880,3 +876,5 @@ a {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
+
+/* -----------------------modal window end-----------------------*/
