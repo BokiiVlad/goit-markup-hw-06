@@ -553,7 +553,6 @@ a {
   /* -----------------------Features end-----------------------*/
 
   .image-item {
-    width: 264px;
     gap: 24px;
     row-gap: 62px;
     flex-direction: row;
@@ -562,15 +561,46 @@ a {
   .img-selection {
   }
   /* -----------------------Our Portfolio section4-----------------------*/
+  .image-person-list {
+    padding: 96px 93px;
+  }
   .portf-block {
     gap: 24px;
     row-gap: 72px;
     flex-direction: row;
     flex-wrap: wrap;
   }
+  .end-site {
+    padding: 96px 93px;
+  }
+  .footer-social-items {
+    text-align: left;
+  }
   .portfolio-item {
     width: calc((100% - 24px) / 2);
   }
+  .logo-dawn {
+    justify-content: flex-start;
+  }
+  .footer-text-div {
+    max-width: 264px;
+  }
+  .footer-text-subscribe {
+    text-align: left;
+  }
+  .form-subscribe {
+    flex-direction: column;
+  }
+  .footer-items {
+    column-gap: 24px;
+    row-gap: 72px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-form {
+  }
+  /* -----------------------table FOOTER-----------------------*/
 }
 
 @media screen and (min-width: 1158px) {
