@@ -892,6 +892,9 @@ a {
   .footer-menu-btn {
     display: none;
   }
+  .mobile-menu {
+    display: none;
+  }
   /* -----------------------Address table end-----------------------*/
   /* -----------------------SECTION 1 tablet-------------------- */
   .head-text {
@@ -937,6 +940,7 @@ a {
   }
   /* ----------------------SECTION 3 tablet-----------------------*/
   .image-item {
+    justify-content: center;
     margin-left: auto;
     margin-top: auto;
     gap: 24px;
@@ -944,12 +948,14 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
   }
+
   .img-selection {
+    margin: 0;
     width: calc((100% - 24px) / 2);
   }
 
   .image-person-list {
-    padding: 96px 93px;
+    padding: 96px 0;
   }
   /* -----------------------SECTION 4 tablet-----------------------*/
   .portf-block {
@@ -963,7 +969,7 @@ a {
   }
   /* -----------------------SECTION FOOTER tablet-----------------------*/
   .end-site {
-    padding: 96px 93px;
+    padding: 96px 0;
   }
   .text-end {
     width: 264px;
@@ -1125,7 +1131,7 @@ a {
   }
 
   .img-selection {
-    width: calc((100%-72px) / 4);
+    width: calc((100% - 72px) / 4);
   }
 
   .team-social-link:hover,
