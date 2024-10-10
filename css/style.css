@@ -571,7 +571,7 @@ a {
 
 .modal-backdrop.is-open {
   opacity: 1;
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .modal {
