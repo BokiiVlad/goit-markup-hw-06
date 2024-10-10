@@ -314,7 +314,6 @@ a {
 .image-person-list {
   background-color: #f4f4fd;
 }
-
 .main-menu-text {
   margin-bottom: 72px;
   font-weight: 700;
@@ -892,7 +891,8 @@ a {
   .footer-menu-btn {
     display: none;
   }
-  .mobile-menu {
+
+  .container-menu {
     display: none;
   }
   /* -----------------------Address table end-----------------------*/
@@ -940,9 +940,6 @@ a {
   }
   /* ----------------------SECTION 3 tablet-----------------------*/
   .image-item {
-    justify-content: center;
-    margin-left: auto;
-    margin-top: auto;
     gap: 24px;
     row-gap: 62px;
     flex-direction: row;
@@ -953,7 +950,13 @@ a {
     margin: 0;
     width: calc((100% - 24px) / 2);
   }
-
+  .container-tablel-small {
+    max-width: 552px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .image-person-list {
     padding: 96px 0;
   }
@@ -997,6 +1000,9 @@ a {
     display: flex;
     flex-direction: row;
     gap: 24px;
+  }
+  .footer-subscribe-input {
+    width: 264px;
   }
   /* -----------------------modal window-----------------------*/
   .modal {
